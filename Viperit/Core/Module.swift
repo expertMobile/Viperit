@@ -24,11 +24,11 @@ public extension ViperitModule where Self: RawRepresentable, Self.RawValue == St
 
 //MARK: - Module
 public struct Module {
-    public fileprivate(set) var view: UserInterface
-    public fileprivate(set) var interactor: Interactor
-    public fileprivate(set) var presenter: Presenter
-    public fileprivate(set) var router: Router
-    public fileprivate(set) var displayData: DisplayData
+    public private(set) var view: UserInterface
+    public private(set) var interactor: Interactor
+    public private(set) var presenter: Presenter
+    public private(set) var router: Router
+    public private(set) var displayData: DisplayData
     
     public static func build<T: RawRepresentable & ViperitModule>(_ module: T, bundle: Bundle = Bundle.main, deviceType: UIUserInterfaceIdiom? = nil) -> Module where T.RawValue == String {
         //Get class types
