@@ -482,7 +482,7 @@
 					53532C4B1DD50BD200088AAC = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = P4KYD82MF4;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					5367C0CE1DD7C68D005B6676 = {
@@ -813,7 +813,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -829,7 +829,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.acferran.ViperitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
